@@ -1,0 +1,61 @@
+{
+   "name": "Gallery",
+   "version": "0.1.0",
+   "description": "Slider with lesser load on server",
+   "keywords": [
+       "package",
+       "example" 
+   ],
+   "maintainers": [
+       {
+           "name": "Shashank Jaiswal",
+           "email": "shashank_jaiswal@live.com",
+           "web": "" 
+       } 
+   ],
+   "contributors": [
+       {
+           "name": "",
+           "email": "",
+           "web": "" 
+       } 
+   ],
+   "bugs": {
+       "mail": "shashank_jaiswal@live.com",
+       "web": "" 
+   },
+   "licenses": [
+       {
+           "type": "GPLv2",
+           "url": "http://www.example.org/licenses/gpl.html" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "http://hg.example.com/mypackage.git" 
+       } 
+   ],
+   "dependencies": {
+       "webkit": "1.2",
+       "ssl": {
+           "gnutls": ["1.0", "2.0"],
+           "openssl": "0.9.8" 
+       } 
+   },
+   "implements": ["cjs-module-0.3", "cjs-jsgi-0.1"],
+   "os": ["linux", "macos", "win"],
+   "cpu": ["x86", "ppc", "x86_64"],
+   "engines": ["v8", "ejs", "node", "rhino"],
+   "scripts": {
+       "install": "install.js",
+       "uninstall": "uninstall.js",
+       "build": "build.js",
+       "test": "test.js" 
+   },
+   "directories": {
+       "lib": "src/lib",
+       "bin": "local/binaries",
+       "jars": "java" 
+   } 
+}

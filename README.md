@@ -1,0 +1,1 @@
+This project parses texts and images from a JSON file and then creates a slide-show with texts and image/video links.
